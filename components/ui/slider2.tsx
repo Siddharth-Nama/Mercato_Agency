@@ -29,17 +29,8 @@ const SliderOne = () => {
 
   return (
     <div>
-      <div
-          className="text-4xl md:text-7xl text-center 
-        bg-clip-text text-transparent md:pb-2 bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50 "
-        >
-          General<br /> AI Agents
-        </div>
-
       <Slider {...settings}>
-        
         <>
-
           <div className="rounded-md px-2 md:p-10">
           <a  href="https://www.youtube.com/watch?v=Xz0fMH6ClKY&ab_channel=RajuSingh-Topic">
           <Image              

@@ -1,12 +1,12 @@
-'use client'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+"use client";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useState, useRef } from "react";
 import Navbar from "@/components/navbar";
 import SliderOne from "@/components/ui/slider";
 import { Spotlight } from "@/components/ui/spotlight";
 import Image from "next/image";
 import Link from "next/link";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 import SEO from "./seo";
 import GraphicDesign from "./graphic-design";
 import ContentCreation from "./contentcreation";
@@ -67,7 +67,7 @@ export default function Home() {
   const scrollToServices = () => {
     servicesRef.current?.scrollIntoView({ behavior: "smooth" });
   };
-  
+
   return (
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Navbar
@@ -84,25 +84,27 @@ export default function Home() {
       <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="white" />
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div className="text-4xl pb-5 md:text-7xl px-6 text-center  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
-        Boost Your Brand <br /> with Us
+          Boost Your Brand <br /> with Us
         </div>
         <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
-        We turn your vision into success with strategic expertise and flawless execution.        </p>
-<br /><br /><br />
+          We turn your vision into success with strategic expertise and
+          flawless execution.{" "}
+        </p>
+        <br /><br />
+        <div className="w-full pt-5">
+          <SliderOne />
+        </div>
         <div ref={seoRef}>
           <SEO />
         </div>
         <div ref={graphicDesignRef}>
           <GraphicDesign />
         </div>
-        
-        
-        
+
         <div ref={productphotographyRef}>
           <Productphotography />
         </div>
-        
-        
+
         <div ref={videoeditingRef}>
           <Videoediting />
         </div>
@@ -111,8 +113,8 @@ export default function Home() {
           <AdRunning />
         </div>
 
-        <div id ='services'>
-        <Services />
+        <div id="services">
+          <Services />
         </div>
         <InfiniteMovingCardsDemo />
         <FAQS />
