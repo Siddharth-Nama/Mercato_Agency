@@ -19,6 +19,7 @@ const SliderOne = () => {
     speed: 4000,
     autoplaySpeed: 1000,
     className: "w-full mx-auto cursor-pointer center-mode",
+    
   };
 
   if (isMediumScreen) {
@@ -51,7 +52,9 @@ const SliderOne = () => {
               className="
                   rounded-2xl
                       "
-            />
+            /> 
+            <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-4xl text-center mx-auto">
+            Customer Service AI Agent</p>
           </a>
           </div>
         </>

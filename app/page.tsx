@@ -3,6 +3,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useState, useRef } from "react";
 import Navbar from "@/components/navbar";
 import SliderOne from "@/components/ui/slider";
+import SliderTwo from "@/components/ui/slider2";
 import { Spotlight } from "@/components/ui/spotlight";
 import Image from "next/image";
 import Link from "next/link";
@@ -94,6 +95,7 @@ export default function Home() {
         <div className="w-full pt-5">
           <SliderOne />
         </div>
+        
         <div ref={seoRef}>
           <SEO />
         </div>
