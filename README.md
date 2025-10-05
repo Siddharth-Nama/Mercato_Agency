@@ -24,6 +24,14 @@ If you just want to view the site, you can find a deployed version (if available
 - Language: TypeScript — JavaScript with helpful type checks.
 - Hosting: usually deployed to platforms like Vercel or Netlify (this project includes Vercel analytics).
 
+## Screenshots
+
+Below are a few screenshots and visual samples from the site. These images are stored in the repository under `public/images/` and are suitable to include in the README.
+
+- Homepage sample
+
+![Homepage sample](/public/images/homepage.png)
+
 ## For developers / technical details
 
 This section documents the tools, scripts, and how to run the project locally.
@@ -114,3 +122,4 @@ Contributing
 License & author
 
 - This repo belongs to Mercato Agency. For license and ownership, check with the repository owner.
+
