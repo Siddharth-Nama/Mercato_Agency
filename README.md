@@ -1,6 +1,8 @@
-# Mercato Agency
+# Mercato Agency - Landing Page Project
 
-Mercato Agency is a modern digital marketing website built with Next.js. This repository contains the website source code used to showcase services such as content creation, graphic design, video editing, SEO, and Shopify store setup.
+This repository contains the landing page I built during my internship at Mercato Agency. It's a showcase of my work developing their modern digital marketing website using Next.js, demonstrating both technical skills and business understanding. The site presents Mercato Agency's services including content creation, graphic design, video editing, SEO, and Shopify store setup.
+
+> Note: This is an example project created as part of my internship experience at Mercato Agency.
 
 ## For non-technical visitors
 
